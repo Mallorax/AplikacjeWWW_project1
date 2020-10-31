@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> // z tego co widzę, to język strony jest polski :)
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/main.css">
@@ -7,22 +7,25 @@
 </head>
 <body>
 
-<div class="navbar">
-  <header class="head">
-    <img src="img/logo.jpg" alt="logo" class="logo">
+<div class="navbar"> // to jako header
+  <header class="head"> // to wywal
+    <img src="img/logo.jpg" alt="logo" class="logo"> // ja bym tutaj dał link, a w linku <img />
   </header>
   <nav>
     <a href="index.html">Strona główna</a>
+    <ul>
+      <li> <a href="index.html">Strona główna</a></li> // to jest lista, więc użyj tagów listy
+    </ul>
     <a href="statystyki.html">Statystyki</a>
     <a href="autor.html">O autorze</a>
     <a href="Kontakt.html">Kontakt</a>
   </nav>
 </div>
 <div class="contact">
-  <h2>Kontakt</h2>
+  <h2>Kontakt</h2> // jak używasz tagów, to po kolei musisz mieć najwyższy tag na stronie, bardzo często to będzie logo
   <p>
     Imię i nazwisko: Patryk Żygo<br>
-    Wiek: 23<br>
+    Wiek: 23<br> // nie używaj html do stylowania, break line zrób CSSem
     Zawód: student<br>
     E-mail: <a href="mailto:patryk733773@gmail.com">patryk733773@gmail.com</a>
   </p>
