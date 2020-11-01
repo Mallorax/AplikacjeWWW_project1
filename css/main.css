@@ -14,7 +14,9 @@ table, th {
   border: 2px solid rgb(75, 75, 75);
   border-collapse: collapse;
 }
-
+.art_heading{
+  display: none;
+}
 
 .logo{
   width: 100%;
